@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SalesWebMvc.Models;
 using System.Configuration;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<SalesWebMvcContext>(options =>
